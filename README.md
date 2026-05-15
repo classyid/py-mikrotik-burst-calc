@@ -1,4 +1,3 @@
-```markdown
 # MikroTik Burst Queue Calculator 🚀
 
 Sebuah *script* Python interaktif dan modular berbasis Command Line Interface (CLI) untuk menghitung parameter *Burst* pada Simple Queue MikroTik. *Script* ini membantu Network dan Server Administrator menghasilkan perhitungan *bandwidth* yang presisi dalam satuan kilobit (`k`) untuk meningkatkan *Quality of Experience* (QoE) pengguna.
@@ -18,17 +17,5 @@ Pastikan sistem Anda sudah terinstal Python 3.
 
 1. Clone repositori ini:
    ```bash
-   git clone [https://github.com/classyid/py-mikrotik-burst-calc.git](https://github.com/classyid/py-mikrotik-burst-calc.git)
+   git clone https://github.com/classyid/py-mikrotik-burst-calc.git
    cd py-mikrotik-burst-calc
-   ```
-2. Berikan hak akses eksekusi dan jalankan:
-   ```bash
-   chmod +x mikrotik_burst_calc.py
-   ./mikrotik_burst_calc.py
-   ```
-3. Masukkan target Upload & Download (dalam Mbps), lalu pilih skenario yang diinginkan.
-4. *Copy* hasil perhitungan yang muncul di terminal dan *paste* langsung ke form *Target Upload/Download* di Winbox Anda!
-
-## 🤝 Kontribusi
-*Pull request* sangat dipersilakan! Untuk perubahan besar, harap buka *issue* terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
-```

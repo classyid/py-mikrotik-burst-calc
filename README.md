@@ -19,3 +19,15 @@ Pastikan sistem Anda sudah terinstal Python 3.
    ```bash
    git clone https://github.com/classyid/py-mikrotik-burst-calc.git
    cd py-mikrotik-burst-calc
+
+2. Berikan hak akses eksekusi dan jalankan:
+   ```bash
+   chmod +x mikrotik_burst_calc.py
+   ./mikrotik_burst_calc.py
+   ```
+3. Masukkan target Upload & Download (dalam Mbps), lalu pilih skenario yang diinginkan.
+4. *Copy* hasil perhitungan yang muncul di terminal dan *paste* langsung ke form *Target Upload/Download* di Winbox Anda!
+
+## 🤝 Kontribusi
+*Pull request* sangat dipersilakan! Untuk perubahan besar, harap buka *issue* terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+```
